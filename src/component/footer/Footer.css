@@ -1,0 +1,129 @@
+
+.p-heading{
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    margin-bottom: 10px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: all .8s;
+}
+.card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    margin-top: 30px;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    color: black;
+    padding: 30px 20px;
+    justify-content: space-around;
+    
+
+}
+.footer h2{
+    color: white;
+    padding-bottom: 8px;
+    border-bottom: 4px solid white;
+    text-align: center;
+    transition: 0.7s linear;
+}
+.footer h2:hover{
+    border-color: rgb(100, 99, 99);
+
+}
+.foot{
+    /* border: 2px solid black; */
+    width: 90%;
+    padding: 10px;
+    margin: 2px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.foot ul{
+    padding: 0px 40px;
+}
+.foot ul li{
+    list-style: none;
+    padding: 9px 30px;
+}
+.foot ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+    animation: step-start;
+} 
+.foot ul li a:hover{
+    color: black;
+    text-decoration:wavy;
+}
+footer{
+  
+    position:relative;
+    bottom:0; 
+    margin-top: 3px;
+    padding-top:10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+footer a{
+    
+    text-decoration: none;
+}
+@media screen and (max-width:575px) {
+.product-space{
+    margin: 10px 0px !important;
+}
+    
+}
+@media screen and (max-width:993px) {
+    .btn-warning{
+        margin-bottom: 4px;
+    }
+    
+}
+@media screen and (max-width:601px) {
+
+    .footer{
+        flex-wrap: wrap;
+    }
+    
+}
+.about-section{
+    display: flex;
+}
+.about-content{
+    width: 60%;
+
+}
+.about-faq{
+    width: 40%;
+}
+@media screen and (max-width:768px) {
+    .about-content{
+        width: 90% !important;
+    
+    }
+    .about-faq{
+        width: 90% !important;
+    }
+    .about-section{
+        flex-wrap: wrap !important;
+    }
+    
+}
+@media screen and (max-width:412px) {
+    .foot ul{
+        padding: 0;
+    }
+    
+}
+input:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
